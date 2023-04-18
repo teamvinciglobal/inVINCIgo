@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+body {
+  animation: transitionIn 1s;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/PLAIN-WBANNER.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-fluid {
+  margin-top: 2vw;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container-fluid h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 3vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  color: #19489D;
+}
+
+.gen-card-btn {
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 10px;
+  background: #19489D;
+  border-color: #19489D;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(10px, 1.50vw, 40px);
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.gen-card-btn:hover {
+  background: #092559;
+  border-color: #092559;
+}
+
+.clear {
+  width: 100%;
+  clear: both;
+}
+
+.bingo-card {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  float: left;
+  width: 500px;
+  height: auto;
+  background-color: #19489D;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.bingo-name {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.headers > div {
+  float: left;
+  width: 95px;
+  text-align: center;
+}
+
+.headers > div span {
+  font-size: 42px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 95px;
+  text-align: center;
+}
+
+.number {
+  padding: 10px 0;
+  padding-right: 10px;
+  padding-left: 8px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-family: 'Poppins', 'Sans-Serif';
+  width: 95px;
+  height: 70px;
+}
+
+.number span {
+  color: #000;
+  font-size: clamp(8px, 11.5px, 14px);
+  position: relative;
+}
+
+.number span:hover {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
