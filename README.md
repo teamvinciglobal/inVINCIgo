@@ -1,2 +1,2 @@
 # inVINCIgo
- A Virtual Bingo Game
+ A Virtual Bingo Card Generator by Team Vinci Global
